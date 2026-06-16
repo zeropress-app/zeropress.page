@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.zeropress.dev/build-pages-config/v0.1/schema.json",
+  "version": "0.1",
+  "site": {
+    "title": "ZeroPress Plain Preview",
+    "description": "A minimal document preview for the bundled plain theme.",
+    "url": "https://plain.zeropress.page",
+    "locale": "en-US",
+    "indexing": false,
+    "search": false,
+    "expose_generator": true,
+    "meta": {
+      "edit_base_url": "https://github.com/zeropress-app/zeropress.page/edit/main/preview/plain.zeropress.page/documents"
+    }
+  },
+  "markdown": {
+    "updated_at": "git"
+  },
+  "front_page": {
+    "type": "markdown",
+    "file": "index.md"
+  }
+}
