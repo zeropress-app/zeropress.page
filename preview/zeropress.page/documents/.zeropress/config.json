@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.zeropress.dev/build-pages-config/v0.1/schema.json",
+  "version": "0.1",
+  "site": {
+    "title": "ZeroPress Theme Previews",
+    "description": "Bundled themes",
+    "url": "https://zeropress.page",
+    "locale": "en-US",
+    "logo": {
+      "src": "/favicon.png",
+      "alt": "ZeroPress Theme Previews"
+    },
+    "search": false,
+    "expose_generator": true
+  },
+  "front_page": {
+    "type": "markdown",
+    "file": "index.md"
+  }
+}
