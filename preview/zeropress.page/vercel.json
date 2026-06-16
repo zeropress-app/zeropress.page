@@ -2,5 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "bash build.sh",
   "outputDirectory": "_site",
+  "ignoreCommand": "git diff HEAD^ HEAD --quiet -- ./",
   "cleanUrls": true
 }
