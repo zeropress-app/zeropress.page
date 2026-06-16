@@ -1,0 +1,57 @@
+{
+  "$schema": "https://schemas.zeropress.dev/build-pages-config/v0.1/schema.json",
+  "version": "0.1",
+  "site": {
+    "title": "ZeroPress Docs1 Preview",
+    "description": "A compact documentation preview for the bundled docs1 theme.",
+    "url": "https://docs1.zeropress.page",
+    "locale": "en-US",
+    "logo": {
+      "src": "/favicon.png",
+      "alt": "ZeroPress Docs1 Preview"
+    },
+    "indexing": false,
+    "search": true,
+    "expose_generator": true,
+    "footer": {
+      "copyright_text": "ZeroPress Docs1 Preview"
+    }
+  },
+  "menus": {
+    "primary": {
+      "name": "Primary Menu",
+      "items": [
+        { "title": "Getting Started", "url": "/getting-started" },
+        { "title": "Markdown", "url": "/guides/markdown" },
+        { "title": "Markdown Examples", "url": "/markdown-examples/" },
+        { "title": "Reference", "url": "/guides/configuration" }
+      ]
+    },
+    "footer": {
+      "name": "Footer Menu",
+      "items": [
+        { "title": "Privacy Policy", "url": "/legal/privacy" },
+        { "title": "Terms of Use", "url": "/legal/terms" }
+      ]
+    }
+  },
+  "collections": {
+    "preview": {
+      "title": "Docs1 Preview",
+      "items": [
+        "index.md",
+        "getting-started.md",
+        "guides/markdown.md",
+        "markdown-examples/index.md",
+        "guides/configuration.md"
+      ]
+    }
+  },
+  "markdown": {
+    "updated_at": "git"
+  },
+  "front_page": {
+    "type": "markdown",
+    "file": "index.md"
+  }
+}
