@@ -10,6 +10,7 @@ This repository contains small, deployable preview sites that demonstrate bundle
 preview/
   zeropress.page/
   docs1.zeropress.page/
+  docs2.zeropress.page/
   plain.zeropress.page/
 ```
 
@@ -29,6 +30,7 @@ The repository root is only a container for these preview sites. Build and hosti
 | --- | --- |
 | `preview/zeropress.page` | Index site for ZeroPress-maintained theme previews. |
 | `preview/docs1.zeropress.page` | Preview for the compact `zeropress.docs1` documentation theme. |
+| `preview/docs2.zeropress.page` | Preview for the sidebar `zeropress.docs2` documentation theme. |
 | `preview/plain.zeropress.page` | Preview for the minimal `zeropress.plain` document theme. |
 
 ## Usage
