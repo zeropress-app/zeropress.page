@@ -1,7 +1,6 @@
 {
-  "printWidth": 120,
-  "tabWidth": 2,
-  "useTabs": false,
+  "printWidth": 2000,
+  "htmlWhitespaceSensitivity": "strict",
   "singleQuote": false,
-  "htmlWhitespaceSensitivity": "css"
+  "tabWidth": 2
 }

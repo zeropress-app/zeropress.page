@@ -1,5 +1,6 @@
 ---
 description: "Check out the previews, Markdown examples, source repos, and theme source links for ZeroPress bundled themes."
+featured_image: "/og-image.png"
 ---
 
 # ZeroPress bundled themes
@@ -25,9 +26,9 @@ Compact documentation theme for smaller documentation sites, package manuals, an
 Sidebar documentation theme for larger documentation sites that need grouped navigation, command palette search, a page table of contents, and collection-based previous/next links.
 
 - Usage: `--theme docs2`
-- Preview: [build-pages.zeropress.dev](https://build-pages.zeropress.dev/)
-- Markdown examples: [build-pages.zeropress.dev/guides/markdown/examples](https://build-pages.zeropress.dev/guides/markdown/examples)
-- Example source: [build-pages.zeropress.dev repository](https://github.com/zeropress-app/build-pages.zeropress.dev)
+- Preview: [docs2.zeropress.page](https://docs2.zeropress.page/)
+- Markdown examples: [docs2.zeropress.page/markdown-examples/](https://docs2.zeropress.page/markdown-examples/)
+- Example source: [preview/docs2.zeropress.page](https://github.com/zeropress-app/zeropress.page/tree/main/preview/docs2.zeropress.page)
 - Theme source: [themes/docs2](https://github.com/zeropress-app/zeropress-build-pages/tree/main/themes/docs2)
 
 ### `zeropress.plain`
