@@ -28,7 +28,7 @@ The ordinary file `guides/markdown.md` is published as a page route under `/guid
 Use the bundled `docs1` theme:
 
 ```bash
-npx --yes @zeropress/build-pages --source ./documents --destination ./_site --public-dir ./public --theme docs1
+npx --yes @zeropress/build-pages@1 --source ./documents --destination ./_site --public-dir ./public --theme docs1
 ```
 
 The generated site is static HTML and can be deployed to static hosting providers.

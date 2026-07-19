@@ -1,6 +1,6 @@
 {
-  "$schema": "https://schemas.zeropress.dev/build-pages-config/v0.1/schema.json",
-  "version": "0.1",
+  "$schema": "https://schemas.zeropress.dev/build-pages-config/v1.0/schema.json",
+  "version": "1.0",
   "site": {
     "title": "ZeroPress Docs1 Preview",
     "description": "A compact documentation preview for the bundled docs1 theme.",
@@ -10,7 +10,9 @@
       "src": "/favicon.png",
       "alt": "ZeroPress Docs1 Preview"
     },
-    "indexing": false,
+    "robots": {
+      "allow_indexing": false
+    },
     "search": true,
     "expose_generator": true,
     "footer": {

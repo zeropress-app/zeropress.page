@@ -29,5 +29,5 @@ Then use `bash ./build.sh` as the build command and `_site` as the output direct
 For a minimal Build Pages run without the preview site's postbuild steps:
 
 ```bash
-npx --yes @zeropress/build-pages --source ./documents --destination ./_site --public-dir ./public --theme plain
+npx --yes @zeropress/build-pages@1 --source ./documents --destination ./_site --public-dir ./public --theme plain
 ```

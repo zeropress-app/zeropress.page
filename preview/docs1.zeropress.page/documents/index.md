@@ -20,7 +20,7 @@ Use docs1 when the site has a small number of top-level pages and does not need 
 For larger manuals with many sections, use `zeropress.docs2` instead.
 
 > [!NOTE]
-> This preview asks crawlers not to index it and is maintained as a theme preview.
+> This preview's generated fallback `robots.txt` disallows crawling and is maintained as a theme preview.
 
 ## Start Here
 

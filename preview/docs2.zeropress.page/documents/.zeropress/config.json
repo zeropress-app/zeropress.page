@@ -1,12 +1,14 @@
 {
-  "$schema": "https://schemas.zeropress.dev/build-pages-config/v0.1/schema.json",
-  "version": "0.1",
+  "$schema": "https://schemas.zeropress.dev/build-pages-config/v1.0/schema.json",
+  "version": "1.0",
   "site": {
     "title": "Docs2 Preview",
     "description": "A sidebar documentation preview for the bundled docs2 theme.",
     "url": "https://docs2.zeropress.page",
     "locale": "en-US",
-    "indexing": false,
+    "robots": {
+      "allow_indexing": false
+    },
     "search": true,
     "expose_generator": true,
     "footer": {

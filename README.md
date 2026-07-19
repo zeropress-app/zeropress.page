@@ -48,4 +48,4 @@ For a specific preview, open that preview directory and read its local `README.m
 
 - [ZeroPress](https://zeropress.app)
 - [Build Pages documentation](https://build-pages.zeropress.dev)
-- [Theme authoring documentation](https://zeropress.dev/theme-authoring/)
+- [Theme authoring documentation](https://zeropress.dev/guides/theme-authoring/)

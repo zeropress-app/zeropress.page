@@ -10,7 +10,7 @@ Internal Markdown links are source-relative. For example, [the preview index](..
 
 This page itself is written as `markdown-examples/index.md`, so it is published as a directory-style page at `/markdown-examples/`.
 
-External links can open in a new tab when the source HTML asks for it. For example, open the <a href="https://zeropress.dev/theme-authoring/" target="_blank" rel="noopener noreferrer">ZeroPress Theme Authoring Guide</a>.
+External links can open in a new tab when the source HTML asks for it. For example, open the <a href="https://zeropress.dev/guides/theme-authoring/" target="_blank" rel="noopener noreferrer">ZeroPress Theme Authoring Guide</a>.
 
 ## Heading Hierarchy
 
@@ -88,7 +88,7 @@ Fenced code blocks keep language classes. When the language is recognized by Zer
 
 ```json
 {
-  "version": "0.1",
+  "version": "1.0",
   "site": {
     "title": "My Docs",
     "description": "Documentation built with ZeroPress."

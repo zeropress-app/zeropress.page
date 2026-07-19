@@ -1,12 +1,14 @@
 {
-  "$schema": "https://schemas.zeropress.dev/build-pages-config/v0.1/schema.json",
-  "version": "0.1",
+  "$schema": "https://schemas.zeropress.dev/build-pages-config/v1.0/schema.json",
+  "version": "1.0",
   "site": {
     "title": "ZeroPress Plain Preview",
     "description": "A minimal document preview for the bundled plain theme.",
     "url": "https://plain.zeropress.page",
     "locale": "en-US",
-    "indexing": false,
+    "robots": {
+      "allow_indexing": false
+    },
     "search": false,
     "expose_generator": true,
     "meta": {

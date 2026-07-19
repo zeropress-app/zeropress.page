@@ -44,4 +44,4 @@ Minimal document theme for publishing standalone Markdown pages with as little s
 ## Related Sites
 
 - [Build Pages documentation](https://build-pages.zeropress.dev/): publish a Markdown source directory with one of these bundled themes.
-- [Theme authoring guide](https://zeropress.dev/theme-authoring/): learn how ZeroPress themes are structured.
+- [Theme authoring guide](https://zeropress.dev/guides/theme-authoring/): learn how ZeroPress themes are structured.

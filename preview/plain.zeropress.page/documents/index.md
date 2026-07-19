@@ -24,6 +24,6 @@ Because this theme does not render navigation, this index page provides the site
 - native media rendering
 
 > [!NOTE]
-> This preview asks crawlers not to index it and is maintained as a theme preview.
+> This preview's generated fallback `robots.txt` disallows crawling and is maintained as a theme preview.
 
 Use `zeropress.docs1` or `zeropress.docs2` when a site needs theme-rendered navigation.

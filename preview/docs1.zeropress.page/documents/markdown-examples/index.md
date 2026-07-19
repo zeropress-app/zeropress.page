@@ -86,7 +86,7 @@ Fenced code blocks keep language classes. When the language is recognized by Zer
 
 ```json
 {
-  "version": "0.1",
+  "version": "1.0",
   "site": {
     "title": "My Docs",
     "description": "Documentation built with ZeroPress."

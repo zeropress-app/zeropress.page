@@ -16,19 +16,21 @@ The canonical theme ID is:
 zeropress.docs1
 ```
 
-## Site Indexing
+## Fallback Robots Policy
 
-This preview intentionally opts out of site indexing:
+This preview configures the generated fallback `robots.txt` to disallow crawling:
 
 ```json
 {
   "site": {
-    "indexing": false
+    "robots": {
+      "allow_indexing": false
+    }
   }
 }
 ```
 
-This is appropriate for theme previews and fixture sites. It is not a privacy or access-control feature.
+This is appropriate for theme previews and fixture sites. It does not add access control or make published content private.
 
 ## Search
 
@@ -67,4 +69,4 @@ The preview uses a small collection so the previous and next links can show the 
 
 - <a href="https://zeropress.page/" target="_blank">ZeroPress Theme Previews</a>
 - <a href="https://build-pages.zeropress.dev/" target="_blank">Build Pages Documentation</a>
-- <a href="https://zeropress.dev/theme-authoring/" target="_blank">Theme Authoring Guide</a>
+- <a href="https://zeropress.dev/guides/theme-authoring/" target="_blank">Theme Authoring Guide</a>
