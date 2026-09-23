@@ -4,6 +4,8 @@ Preview site for `zeropress.plain`, the minimal document theme bundled with `@ze
 
 This site is maintained inside the `zeropress.page` repository so individual theme previews can be deployed from subdirectories.
 
+This preview adds its attribution footer through `custom_html`; the bundled `plain` theme does not include it.
+
 ## Build
 
 Use `build.sh` for the full preview build:

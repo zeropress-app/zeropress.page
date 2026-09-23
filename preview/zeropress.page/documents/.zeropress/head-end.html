@@ -1,0 +1,25 @@
+<style>
+  .site-attribution {
+    border-top: 1px solid var(--line);
+    padding: 1rem 0 2rem;
+    color: var(--muted);
+    font-size: 0.875rem;
+  }
+
+  .site-attribution p {
+    margin: 0;
+  }
+
+  .site-attribution a[target="_blank"]::after {
+    content: "";
+    display: inline-block;
+    width: 0.72em;
+    height: 0.72em;
+    margin-left: 0.25em;
+    vertical-align: 0.02em;
+    background: currentColor;
+    opacity: 0.72;
+    -webkit-mask: var(--icon-external-link) center / contain no-repeat;
+    mask: var(--icon-external-link) center / contain no-repeat;
+  }
+</style>

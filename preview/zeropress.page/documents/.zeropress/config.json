@@ -15,5 +15,9 @@
   "front_page": {
     "type": "markdown",
     "file": "index.md"
+  },
+  "custom_html": {
+    "head_end": { "file": ".zeropress/head-end.html" },
+    "body_end": { "file": ".zeropress/body-end.html" }
   }
 }
