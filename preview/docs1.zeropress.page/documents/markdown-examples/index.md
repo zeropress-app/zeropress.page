@@ -121,7 +121,7 @@ Mermaid fences remain readable source without JavaScript. Docs1 progressively en
 ```mermaid
 flowchart LR
   source["Markdown source"] --> build["Build Pages"]
-  build --> data["preview-data.json"]
+  build --> data["zeropress-preview-data.json"]
   data --> site["Static HTML output"]
 ```
 
